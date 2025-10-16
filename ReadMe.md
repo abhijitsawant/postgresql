@@ -34,6 +34,7 @@ CREATE TABLE IF NOT EXISTS flow_records (
     b_out BIGINT,
     p_in BIGINT,
     p_out BIGINT,
+    proto BIGINT,
     t_bytes BIGINT,
     cnt BIGINT,
     dev TEXT,
